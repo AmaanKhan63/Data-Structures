@@ -1,6 +1,6 @@
 # Data-Structures
 
-> 1. Stack and It's Implementations\n
+> Stack and It's Implementations
 a. Balance Parenthesis
 b. Expressions and their conversions
 c. Stock Span
@@ -19,3 +19,9 @@ b. In Place Reversal of Linked List
 c. Reverse k groups in linked list
 d. Cycle detection in linked list
 e. Interleave first and second half of Linked List
+
+> Binary Tree
+a. Traversals of Binary Tree
+b. Height of Binary Tree
+c. Diameter of Binary Tree
+d. Max, Min from Binary Tree
