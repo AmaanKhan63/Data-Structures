@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int frequencyofnonvowels(string s){
+    int vowels=0;
+    int f[26]={0};
+    for(char c:s){
+        if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U'){
+            vowels++;
+        }
+        else{
+            f[c-'a']++;
+        }
+    }
+    
+    for(int i=0;i<26;i++){
+        if(f[i]>0){
+            cout<<char(i+'a')<<":"<<f[i]<<endl;
+        }
+    }
+    cout<<"vowels: "<<vowels;
+
+    return 0;
+}
+int main(){
+    string s="rajasoft";
+    frequencyofnonvowels(s);
+
+}
