@@ -36,3 +36,9 @@ b. Add new node in BST
 c. Delete heavy path
 d. Delete a Node
 e. Validate BST
+
+> Graphs
+a. BFS
+b. DFS
+c. Detect Cycle
+d. Find Islands
