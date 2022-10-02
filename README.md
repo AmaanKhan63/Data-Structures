@@ -42,3 +42,7 @@ a. BFS
 b. DFS
 c. Detect Cycle
 d. Find Islands
+
+> Dynamic Programming
+a. Coin Exchange
+b. Knapsack 0/1
