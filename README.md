@@ -1,4 +1,8 @@
 # Data-Structures
+Data Structures are divided into two types linear and non-linear.
+
+Linear data structures include Array, Linked List, Queue and Stack.
+Nonlinear data structures include Tree and Graph.
 
 > Stack and It's Implementations
 a. Balance Parenthesis
