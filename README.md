@@ -29,3 +29,10 @@ a. Traversals of Binary Tree
 b. Height of Binary Tree
 c. Diameter of Binary Tree
 d. Max, Min from Binary Tree
+
+> Binary Search Trees
+a. Max, Min in BST
+b. Add new node in BST
+c. Delete heavy path
+d. Delete a Node
+e. Validate BST
