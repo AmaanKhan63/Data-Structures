@@ -46,3 +46,6 @@ d. Find Islands
 > Dynamic Programming
 a. Coin Exchange
 b. Knapsack 0/1
+
+> Heaps
+a. Min, Max Heaps
