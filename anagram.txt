@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class Main{
+	public static void main(String[] args){
+		Scanner sc  = new Scanner(System.in);
+		String a = sc.next();
+		String b = sc.next();
+		boolean ans = anagram(a,b);
+		System.out.println(ans);
+	}
+
+	public static boolean anagram(String a , String b){
+		if(a.length() != b.length()){
+			return false;
+		}
+		int[] arr = new int[256];
+		Arrays.fill(arr,0);
+		for(int i=0;i<a.length();i++){
+			char ch = a.charAt(i);
+			arr[ch] += 1; 
+		}
+
+		for(int i=0;i<b.length();i++){
+			char ch = b.charAt(i);
+			arr[ch] -= 1;
+		}
+
+		for(int i=0;i<256;i++){
+			if(arr[i] != 0)
+				return false;
+		}
+
+		return true;
+	}
+}
